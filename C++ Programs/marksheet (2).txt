@@ -1,0 +1,56 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main(void)
+{
+int a,b,c,d,e,f,g;
+float p;
+clrscr();
+
+// Marks enter
+
+printf("Enter Marks for Maths:");
+scanf("%d",&a);
+printf("\nEnter Marks for English:");
+scanf("%d",&b);
+printf("\nEnter Marks for Urdu:");
+scanf("%d",&c);
+printf("\nEnter Marks for Science:");
+scanf("%d",&d);
+printf("\nEnter Marks for Computer:");
+scanf("%d",&e);
+
+// Total Number
+f=a+b+c+d+e;
+printf("\n\n Total Marks Obtained: %d",f);
+
+//
+
+p=((f/500)*100);
+printf("\n\n Percentage: %.2f",p);
+
+//IF-ElSE Ladder
+
+if(p<=50)
+{
+printf("\nGrade is D");
+}
+else if(p<=60)
+{
+printf("\nGrade is C");
+}
+else if(p<=70)
+{
+printf("\nGrade is B");
+}
+else if(p<=80)
+{
+printf("\nGrade is A");
+}
+else if(p>=80)
+{
+printf("\nGrade is A+");
+}
+
+getch();
+}

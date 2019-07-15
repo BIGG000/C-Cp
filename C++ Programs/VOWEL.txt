@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<process.h>
+#include<conio.h>
+void main()
+{
+char c;
+system("cls");
+printf("\n Enter a Character");
+c=getche();
+if(c=='a' || c=='A')
+{printf("\n Vowel \n" );}
+else if(c=='e' || c=='E')
+{printf("\n Vowel \n" );}
+else if(c=='i' || c=='I')
+{printf("\n Vowel \n" );}
+else if(c=='o' || c=='O')
+{printf("\n Vowel \n" );}
+else if(c=='u' || c=='U')
+{printf("\n Vowel \n" );}
+else
+printf("Consonant");
+system("pause");
+}

@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main()
+{
+printf("\THE Said\n\"hello\"\n");
+printf(alt beeps !\n");
+printf("hi\rHello\n");
+return 0;
+}

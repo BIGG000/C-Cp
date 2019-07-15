@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+ clrscr();
+ int a;
+ printf("\nEnter an integer ");
+ scanf("%d",&a);
+ (a%2==0)?printf("\nEven"):printf("\nOdd");
+ getch();
+}

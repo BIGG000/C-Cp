@@ -1,0 +1,58 @@
+#include<stdio.h>
+#include<conio.h>
+#include<iostream.h>
+void main(void)
+{
+char a[20];
+int R,u,e,m,s,c,g,l,h,i,t;
+float x,p;
+clrscr();
+//heading Mraksheet
+printf("\t\t ~:MARKSHEET:~ \n\n ");
+//Student Deatails
+cout<<"\nStudent Name: ";
+cin>>a;
+printf("\nRoll Number:  ");
+scanf("%d",&R);
+// Enter Subjects Marks
+printf("\n\tEnter Marks for Urdu: ");
+scanf("%d",&u);
+printf("\tEnter Marks for English: ");
+scanf("%d",&e);
+printf("\tEnter Marks for Mathematics: ");
+scanf("%d",&m);
+printf("\tEnter Marks for Science: ");
+scanf("%d",&s);
+printf("\tEnter Marks for Computer: ");
+scanf("%d",&c);
+printf("\tEnter Marks for Geography: ");
+scanf("%d",&g);
+printf("\tEnter Marks for Sindhi Language: ");
+scanf("%d",&l);
+printf("\tEnter Marks for history: ");
+scanf("%d",&h);
+printf("\tEnter Marks for Islamiyat: ");
+scanf("%d",&i);
+printf("\tEnter Marks for technical: ");
+scanf("%d",&t);
+// Total Numbers
+x=u+e+m+s+c+g+l+h+i+t;
+printf("\n Total Marks Obtained: %.1f",x);
+//Percentage
+p=((x/1000)*100);
+printf("\n Percentage: %.2f",p);
+//IF-Else Ladder ( for Grade)
+if(p<=50)
+{printf("\n Grade D");}
+else if(p<=60)
+{printf("\n Grade C");}
+else if(p<=70)
+{printf("\n Grade B");}
+else if(p<=80)
+{printf("\n Grade A");}
+else if(p<=90)
+{printf("\n Grade A+");}
+else if (p<=100)
+{printf("\n Grade A++");}
+getch();
+}

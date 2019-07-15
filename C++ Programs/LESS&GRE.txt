@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<process.h>
+void main ()
+{
+system("cls");
+int x,y;
+printf("\nEnter the value of X \n");
+scanf("%d",&x);
+printf("\nEnter the value of Y \n");
+scanf("%d",&y);
+if(x>y)
+{printf("\nX is greater than Y \n");}
+else if(x<y)
+{printf("\nX is less than Y \n");}
+else if(x==y)
+{printf("\n X is equal to Y\n");}\
+printf("\nEND OF PR0GRAM\n");
+system("pause");
+}

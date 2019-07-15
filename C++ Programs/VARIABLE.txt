@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+ clrscr();
+ int a,b;
+ printf("\nEnter a Number: ");
+ scanf("%d",&a);
+b=(a<10)?50:100;
+  printf("%d",b);
+getch();
+}

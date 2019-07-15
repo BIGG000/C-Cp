@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<process.h>
+#include<conio.h>
+void main()
+{
+system("cls");
+//declaration
+int a;
+float b;
+char c;
+//initialization
+a=2;
+b=5.483;
+c='e';
+//before input
+printf("\nInteger a=%d\nFloat b=%.3f\nCharacter c=%c\n",a,b,c);
+//input
+printf("\nEnter an integer ");
+scanf("%d",&a);
+printf("\nEnter a float ");
+scanf("%f",&b);
+printf("\nEnter a character ");
+c=getche();
+//output
+printf("\nInteger a=%d\nFloat b=%.3f\nCharacter c=%c\n",a,b,c);
+system("pause");
+}

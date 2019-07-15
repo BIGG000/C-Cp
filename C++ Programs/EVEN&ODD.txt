@@ -1,0 +1,42 @@
+#include<stdio.h>
+#include<process.h>
+void main()
+{
+system("cls");
+int a,c,d;
+/*
+c=a/2;
+d=a%2;
+printf("q=%d\tr=%d\n",c,d); */
+printf("\nEnter a number ");
+scanf("%d",&a);
+c=a%2;
+if(c==0)
+{
+printf("\nEven\n");
+}
+else
+printf("\nOdd\n");
+system("pause");
+}
+
+
+
+panel full set 7000
+engine ring seal head service 7000
+switch self 2000
+wheel 4 pcs 2000
+colour 2000
+mountain rubber 800
+labour charges 4000
+nut & bult 200
+
+
+bill 2
+
+distributer cap 1 pcs 700
+T 300
+labour chargers 500
+
+bill 3
+ cyclencer pipe labour charges 1500

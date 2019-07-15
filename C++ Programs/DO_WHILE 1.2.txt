@@ -1,0 +1,46 @@
+#include<stdio.h>
+#include<conio.h>
+#include<process.h>
+void main()
+{
+system("cls");
+int a,b,c;
+char ch;
+do
+{
+system("cls");
+printf("\nEnter your choice ");
+printf("\n1. Even / Odd ");
+printf("\n2. Table ");
+printf("\n3. Factorial ");
+printf("\n4. Vowel\n ");
+scanf("%d",&a);
+switch(a)
+{
+case 1:
+printf("\nEnter a number ");
+scanf("%d",&b);
+if(b%2==0)
+printf("\nEven");
+else
+printf("\nOdd");
+break;
+case 2:
+for(a=1;a<=12;a++)
+printf("\n%d",a);
+break;
+case 3:
+printf("\nFactorial");
+break;
+case 4:
+printf("\nVowel");
+break;
+default:
+printf("\nInvalid choice");
+}
+printf("\n\tDo you want to continue?(y or n)");
+ch=getche();
+}while(ch=='y' || ch=='Y');
+printf("\n");
+system("pause");
+}

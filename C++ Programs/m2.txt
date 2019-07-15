@@ -1,0 +1,56 @@
+#include<stdio.h>
+#include<conio.h>
+void mani (void)
+{
+int u,e,m,s,c,g,l,h,i,t;
+float x,p;
+clsscr();
+
+// Enter Subjects
+
+printf("\n Enter Marks for Urdu");
+scanf("%d",&u);
+printf("\n Enter Marks for English");
+scanf("%d",&e);
+printf("\n Enter Marks for Mathematics");
+scanf("%d",&m);
+printf("\n Enter Marks for Science");
+scanf("%d",&s);
+printf("\n Enter Marks for Computer");
+scanf("%d",&c);
+printf("\n Enter Marks for Geography");
+scanf("%d",&g);
+printf("\n Enter Marks for Sindhi Language");
+scanf("%d",&l);
+printf("\n Enter Marks for history");
+scanf("%d",&h);
+printf("\n Enter Marks for Islamiyat");
+scanf("%d",&i);
+printf("\n Enter Marks for technical");
+scanf("%d",&t);
+
+// Total Number
+
+x=u+e+m+s+c+g+l+h+i+t
+printf("\n Total Marks Obtained: %.1f",x);
+
+//percentage
+
+p=((x/1000)*100);
+printf("\n Percentage: %.2f,p);
+
+//IF-Else Ladder ( for Grade)
+
+if(p<=50)
+{printf("\n Grade D ");}
+elseif(p<=60)
+{printf("\n Grade C ");}
+elseif(p<=70)
+{printf("\n Grade B ");}
+elseif(p<=80)
+{printf("\n Grade A ");}
+elseif(p<=90)
+{printf("\n Grade A+ ");}
+
+getch();
+}
